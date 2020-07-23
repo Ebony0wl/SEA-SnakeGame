@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background: black;
+}
+
+.bodySub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#game {
+  background-image: url("https://cdn.glitch.com/e664e9d7-b693-467d-980c-848f4086a8ac%2FGrass_background.jpg?v=1595286113347");
+}
+canvas {
+  border: 1px solid white;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  background: white;
+}
+
+h2 p {
+  padding: 0px 20px;
+}
+
+.score{
+  margin-left: auto;
+}
